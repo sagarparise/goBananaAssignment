@@ -1,8 +1,10 @@
 import React from 'react'
 import {Card, CardActionArea,Typography, CardMedia} from '@mui/material'
 function Product({product}) {
+ 
   return (
-    <Card sx={{ width: 300, height:200 }}>
+    
+      <Card sx={{ width: 300, height:200 }}>
       <CardActionArea >
       <CardMedia
           component="img"
@@ -15,6 +17,7 @@ function Product({product}) {
         </Typography>
       </CardActionArea>
     </Card>
+   
   )
 }
 
